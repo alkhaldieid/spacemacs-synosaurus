@@ -1,0 +1,46 @@
+#+TITLE: spacemacs-synosaurus
+
+#+TAGS: fun|layer
+
+
+* Table of Contents                     :TOC_5_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#prerequisites][Prerequisites]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+- [[#notes][Notes]]
+
+* Description
+Spacemacs layer that provides support for wordnet backend synonyms suggestions based on the [[https://github.com/hpdeifel/synosaurus][Synosaurus package]]
+
+** Features:
+- Provides a set of synonyms
+* Prerequisites
+  - wordnet
+  to install wordnet in Debian based systems
+#+BEGIN_SRC bash
+sudo apt install wordnet
+#+END_SRC
+
+* Install
+To use this configuration layer:
+
+#+BEGIN_SRC bash
+git clone https://github.com/alkhaldieid/spacemacs-synosaurus.git ~/.emacs.d/private/synosaurus
+#+END_SRC
+
+Add =synosaurus= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key binding | Description                   |
+|-------------+-------------------------------|
+| ~SPC y t~   | Toggle synosaurus mode        |
+| ~SPC y r~   | Synosaurus Choose and Replace |
+|             |                               |
+
+* Notes
+tested only in Ubuntu
+#
