@@ -12,7 +12,7 @@
 - [[#notes][Notes]]
 
 * Description
-Spacemacs layer that provides support for wordnet backend synonyms suggestions based on the [[https://github.com/hpdeifel/synosaurus][Synosaurus package]]
+A Spacemacs layer that provides support for wordnet backend synonyms suggestions based on the [[https://github.com/hpdeifel/synosaurus][Synosaurus package]]
 
 ** Features:
 - Provides a set of synonyms
@@ -43,4 +43,6 @@ file.
 
 * Notes
 tested only in Ubuntu
+Please note that this layer is not part of the spacemacs distribution yet and it is still under development.
+Feel free to submit a pull request or issues.
 #
